@@ -97,7 +97,7 @@ if(!empty($nome) && !empty($id)){
             <div class="form-group">
               <label class="col-md-4 control-label" for="nome">Nome</label>  
               <div class="col-md-4">
-              <input value="<?php echo $dados['nome'];?>"id="nome" name="nome" type="text" placeholder="Nome" class="form-control input-md">
+              <input value="<?php echo $dados['nome_produto'];?>"id="nome" name="nome" type="text" placeholder="Nome" class="form-control input-md">
                 
               </div>
             </div>
